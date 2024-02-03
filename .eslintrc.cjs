@@ -17,6 +17,6 @@ module.exports = {
       { allowConstantExport: true },
     ],
     "react/jsx-no-target-blank": "off",
-    "react/prop-types": "off"
+    "react/prop-types": "off",
   },
 }
