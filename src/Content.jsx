@@ -1,10 +1,10 @@
 import { Part } from "./Part.jsx"
-export const Content = ({ part1, exercises1, part2, exercises2, part3, exercises3 }) => {
+export const Content = ({ courseData }) => {
   return (
     <div>
-      <Part part={part1} exercise={exercises1} />
-      <Part part={part2} exercise={exercises2} />
-      <Part part={part3} exercise={exercises3} />
+      <Part part={courseData[0].part} exercise={courseData[0].exercises} />
+      <Part part={courseData[1].part} exercise={courseData[1].exercises} />
+      <Part part={courseData[2].part} exercise={courseData[2].exercises} />
     </div>
   );
 }
